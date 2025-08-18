@@ -1,0 +1,8 @@
+.env
+.*
+*images*
+Chroma_langchain*
+multimodal_test
+chroma_store_*
+
+!.gitignore
