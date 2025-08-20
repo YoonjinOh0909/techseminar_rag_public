@@ -9,3 +9,5 @@ chroma_store_*
 
 prev_chroma_store
 faiss_index*
+
+prac.ipynb
