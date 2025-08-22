@@ -3,11 +3,13 @@
 *images*
 Chroma_langchain*
 multimodal_test
-chroma_store_*
 
 !.gitignore
 
 prev_chroma_store
-faiss_index*
 
 prac.ipynb
+
+good_result.md
+
+dbstore
