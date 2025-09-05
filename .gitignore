@@ -11,3 +11,5 @@ prev_chroma_store
 prac.ipynb
 
 dbstore
+
+__pycache__

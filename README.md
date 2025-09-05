@@ -12,9 +12,17 @@
     - 각 조합별 성능을 평가한 후, 우수한 성능을 보인 모델의 구성 요소에는 ‘긍정적’ 표시를, 성능이 저조한 모델의 구성 요소에는 ‘부정적’ 표시를 부여하여 실험 결과를 수집한다
 
 <br>
+
 - 사용 데이터셋 (data 폴더에 저장) : 
     - 한국주택금융공사에서 제공하는 pdf (5개)
     - 우리 은행에서 제공하는 대출 안내 사이트 pdf로 저장 (8개)
+
+<br>
+
+- 스택 / 기술 
+
+    <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" height = 25> <img src="https://img.shields.io/badge/langchain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" height = 25> <img src="https://img.shields.io/badge/huggingface-FFD21E?style=for-the-badge&logo=huggingface&logoColor=white" height = 25> <img src="https://img.shields.io/badge/openai-412991?style=for-the-badge&logo=openai&logoColor=white" height = 25> <img src="https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" height = 25>
+    
 
 ## 각 구성 요소 선정
 ### 청킹 기법
@@ -99,6 +107,15 @@ text-embedding-3-large 같은 경우 고성능의 모델로 좋은 성능을 보
 이다.
 
 나머지 답변들도 [Results 폴더]("ttps://github.com/YoonjinOh0909/techseminar_rag_public/blob/main/by_book/results")에서 확인 가능하다.
+
+### 챗봇 프로토타입
+``LLM을 활용한 AI 에이전트 개발 입문``의 코드를 활용하여 ``Streamlit``에 로컬로 RAG를 사용한 챗봇 프로토타입을 실행해보았다.
+
+아래와 같이 작동이 가능하다.
+
+<img src = "by_book\results\img\chatbot_prototype_1.png" width = 45%> <img src = "by_book\results\img\chatbot_prototype_2.png" width = 45%>
+<img src = "by_book\results\img\chatbot_prototype_3.png" width = 45%> <img src = "by_book\results\img\chatbot_prototype_4.png" width = 45%>
+
 
 ## 느낀점 및 마무리
 ### 어려웠던 점
